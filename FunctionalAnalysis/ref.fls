@@ -1,0 +1,5 @@
+PWD /home/joel/workspace/FunctionalAnalysisLectureNotes/FunctionalAnalysis
+INPUT /usr/share/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/latex.fmt
+INPUT ref.tex
+OUTPUT ref.log

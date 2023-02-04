@@ -1,0 +1,239 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=latex 2022.11.23)  4 FEB 2023 13:58
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**lecture7.tex
+(./lecture7.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-04-10>
+! Undefined control sequence.
+l.2 \section
+            {Lecture 7 --- \textit{Banach Spaces and some examples} --- 25th...
+
+? 
+! Interruption.
+<to be read again> 
+                   {
+l.2 \section{
+             Lecture 7 --- \textit{Banach Spaces and some examples} --- 25th...
+
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \section{L
+              ecture 7 --- \textit{Banach Spaces and some examples} --- 25th...
+
+? 
+! Interruption.
+\GenericError  ...                                
+                                                  \endgroup 
+l.2 \section{L
+              ecture 7 --- \textit{Banach Spaces and some examples} --- 25th...
+
+? 
+Missing character: There is no L in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no J in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+! Undefined control sequence.
+l.3 \horz
+         
+? 
+! Interruption.
+l.4 
+    \subsection{Possibly, final}
+? 
+! Undefined control sequence.
+l.4 \subsection
+               {Possibly, final}
+? 
+! Interruption.
+<to be read again> 
+                   {
+l.4 \subsection{
+                Possibly, final}
+? 
+Missing character: There is no P in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--5
+[]
+ []
+
+
+Overfull \hbox (15.72768pt too wide) in paragraph at lines 2--5
+\OT1/cmr/m/it/10 Ba-
+ []
+
+
+Overfull \hbox (20.44432pt too wide) in paragraph at lines 2--5
+\OT1/cmr/m/it/10 nach
+ []
+
+
+Overfull \hbox (28.1109pt too wide) in paragraph at lines 2--5
+\OT1/cmr/m/it/10 Spaces
+ []
+
+
+Overfull \hbox (15.84436pt too wide) in paragraph at lines 2--5
+\OT1/cmr/m/it/10 and
+ []
+
+
+Overfull \hbox (21.97765pt too wide) in paragraph at lines 2--5
+\OT1/cmr/m/it/10 some
+ []
+
+
+Overfull \hbox (12.81657pt too wide) in paragraph at lines 2--5
+\OT1/cmr/m/it/10 ex-
+ []
+
+
+Overfull \hbox (16.86656pt too wide) in paragraph at lines 2--5
+\OT1/cmr/m/it/10 am-
+ []
+
+
+Overfull \hbox (16.35545pt too wide) in paragraph at lines 2--5
+\OT1/cmr/m/it/10 ples
+ []
+
+! Undefined control sequence.
+l.6 \horz
+         
+? 
+! Interruption.
+l.7 
+    
+? 
+! Undefined control sequence.
+l.8 \subsection
+               {Class Sketch}
+? 
+! Interruption.
+<to be read again> 
+                   {
+l.8 \subsection{
+                Class Sketch}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \subsection{C
+                 lass Sketch}
+? 
+! Interruption.
+\GenericError  ...                                
+                                                  \endgroup 
+l.8 \subsection{C
+                 lass Sketch}
+? 
+Missing character: There is no C in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+! Undefined control sequence.
+l.9 \horz
+         
+? 
+! Interruption.
+l.10 
+     
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 8--10
+[]
+ []
+
+! Undefined control sequence.
+l.11 \subsubsection
+                   {Definition}
+? 
+! Interruption.
+<to be read again> 
+                   {
+l.11 \subsubsection{
+                    Definition}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \subsubsection{D
+                     efinition}
+? 
+! Interruption.
+\GenericError  ...                                
+                                                  \endgroup 
+l.11 \subsubsection{D
+                     efinition}
+? X
+ 
+Here is how much of TeX's memory you used:
+ 19 strings out of 478239
+ 423 string characters out of 5850481
+ 289988 words of memory out of 5000000
+ 18357 multiletter control sequences out of 15000+600000
+ 469605 words of font info for 29 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 13i,1n,12p,132b,63s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

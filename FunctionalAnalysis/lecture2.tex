@@ -113,6 +113,7 @@ and thus $f \in S$.
 Consider the zero function and the set $S$, we show that that there is no $f \in S$ such that $d (0,S) = d(f,0)=\norm{f}_{\infty}$. \textcolor{red}{Incomplete!}
 \end{proof}
 
+
 \subsection{Projections}
 \begin{theorem}
 Let $H$ be a Hilbert space. For any fixed $y\in H,$ consider the map $L_y : H \to \mathbb C$ defined by $L_y(x)= \langle x, y \rangle,\,\,x\in H.$ Then $L_y$ is a continuous linear functional on $H.$ 
@@ -188,9 +189,9 @@ into a sum of $Px\in M$ and $Qx\in M^{\perp}.$ Thus $H = M \oplus M^{\perp}.$
 	    Note that by equation \ref{eqn:2.2.1}, $v_1$ and $v_2$ are orthogonal and hence by Pythagoras theorem\footnote{In inner product space, if $\ip{v_{1}, v_{2}}=0$ then $\norm{v_{1} + v_{2}}^{2} = \norm{v_{1}}^{2} + \norm{v_{2}}^{2}$} for inner product spaces, we may write
 \begin{align*}
     \delta ^{2} = \norm{Qx}^{2} &= \norm{ Qx - \ip{Qx, y} \frac{y}{\norm{y}^{2}}}^{2} + \norm{\ip{Qx,y} \frac{y}{\norm{y}^{2}}}^{2} \\
-    &= \norm{ Qx - \ip{Qx, y} \frac{y}{\norm{y}^{2}}}^{2} + \frac{\abs{\ip{Qx,y}}}{\norm{y}^{2}} \\
-    &= \norm{ x- Px - \ip{Qx, y} \frac{y}{\norm{y}^{2}}}^{2} + \frac{\abs{\ip{Qx,y}}}{\norm{y}^{2}}
-    &\ge \delta ^{2} +  \frac{\abs{\ip{Qx,y}}}{\norm{y}^{2}}
+                                &= \norm{ Qx - \ip{Qx, y} \frac{y}{\norm{y}^{2}}}^{2} + \frac{\abs{\ip{Qx,y}}^2}{\norm{y}^{2}} \\
+                                &= \norm{ x- Px - \ip{Qx, y} \frac{y}{\norm{y}^{2}}}^{2} + \frac{\abs{\ip{Qx,y}}^{2}}{\norm{y}^{2}} \\
+                                &\ge \delta ^{2} +  \frac{\abs{\ip{Qx,y}}^2}{\norm{y}^{2}}, \quad \text{since} \quad Px, y \ \in M
 	    \end{align*}
 
 	    and thus, we have that $\abs{\ip{Qx,y}} = 0$. This completes the proof of (a).

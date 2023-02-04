@@ -26,18 +26,18 @@ where $P_{_M}$ and $P_{_{M^{\perp}}}$ denotes the orthogonal projection onto $M$
 \subsection{Generalising projections to infinite dimensions\ldots}
 \begin{proposition}
 Suppose $\mathcal B = \{u_{i} :  i\in \mathbb N\}$ is an orthonormal set in a Hilbert space $H.$ Then for any $x\in H,$ we have $$ \sum_{j=1}^{\infty} |\langle x, u_j\rangle|^2 \leqslant \|x\|^2.$$
-This is known as the Bessel's inequality. Let $M= \overline{\text{span } \{u_i: i\in\mathbb N\}}$ be the smallest closed subspace spanned by the orthonormal set $\mathcal B.$ It follows that $S_n(x) = \sum_{j=1}^{n} \langle x, u_j\rangle u_j $ is a Cauchy sequence in $M.$  Hence the limit $\lim_{n\to\infty} S_n(x) =  \sum_{j=1}^{\infty} \langle x, u_j\rangle u_j $ exist in the Hilbert space $M$. Moreover, $P_{_M}(x),$ the orthogonal projection of $x$ onto $M,$ is given by
+This is known as the Bessel's inequality. Let $M= \overline{\text{span } \{u_i: i\in\mathbb N\}}$ be the smallest closed subspace spanned by the orthonormal set $\mathcal B.$ It follows that $S_n(x) = \sum_{j=1}^{n} \langle x, u_j\rangle u_j $ is a Cauchy sequence in $M.$  Hence the limit $\lim_{n\to\infty} S_n(x) =  \sum_{j=1}^{\infty} \langle x, u_j\rangle u_j $ exist in the Hilbert space $M$. Moreover, $P_M(x),$ the orthogonal projection of $x$ onto $M,$ is given by
 \begin{align*}
-P_{_M}(x)= \sum_{j=1}^{\infty} \langle x, u_j\rangle u_j = \lim_{n\to\infty} S_n(x).
+P_M(x)= \sum_{j=1}^{\infty} \langle x, u_j\rangle u_j = \lim_{n\to\infty} S_n(x).
 \end{align*}
 Furthermore equality occurs in the Bessel's inequality if and only if $x\in M.$
 \end{proposition}
 \begin{proof}
     Fix a natural number $k$ and consider $M_k= \text{span} \{u_j: 1\leqslant j \leqslant k\}.$ By Equation \ref{eqn:Bessel-in-finite} we find that 
 \begin{align*}
-\|P_{_{M_k}}x\|^2 = \sum_{j=1}^k |\langle x, u_j\rangle|^2 \leqslant \|x\|^2,\,\,x\in H,
+\|P_{M_k}x\|^2 = \sum_{j=1}^k |\langle x, u_j\rangle|^2 \leqslant \|x\|^2,\,\,x\in H,
 \end{align*}
-where where $P_{_{M_k}}$ denotes the orthogonal projection onto $M.$ Since this holds true for every $k\in \mathbb N,$ it follows that
+where where $P_{M_k}$ denotes the orthogonal projection onto $M.$ Since this holds true for every $k\in \mathbb N,$ it follows that
 $$ \sum_{j=1}^{\infty} |\langle x, u_j\rangle|^2 \leqslant \|x\|^2.$$ 
 For $S_n(x) = \sum_{j=1}^{n} \langle x, u_j\rangle u_j ,$  note that 
 \begin{align*}
@@ -53,14 +53,14 @@ By the uniqueness of the decomposition $H= M \oplus M^{\perp},$ we obtain that
 P_{_M}(x)= z= \sum_{j=1}^{\infty} \langle x, u_j\rangle u_j = \lim_{n\to\infty} S_n(x),\,\, P_{{_M}^{\perp}}(x)=x-z.
 \end{align*}
 
-Now, we proceed to show that the Bessel inequality holds iff $x\in M$. Suppose that $x\in M$. Then we have that $P_{M} \left( x \right) = x$ and hence $x = z + (x-z) = x + (x-z)$ and hence $x=z$. But note that $\norm{z} ^{2} = \norm{\sum_{j=1}^{\infty}\ip{x, u_{j}} u_{j}} = \sum_{j=1}^{\infty} \abs{\ip{x,u_{j}}}$ but this follows from 
+Now, we proceed to show that the Bessel inequality holds iff $x\in M$. Suppose that $x\in M$. Then we have that $P_{M} \left( x \right) = x$ and hence $x = z + (x-z) = x + (x-z)$ and hence $x=z$. But note that $\norm{z} ^{2} = \norm{\sum_{j=1}^{\infty}\ip{x, u_{j}} u_{j}}^2 = \sum_{j=1}^{\infty} \abs{\ip{x,u_{j}}}^2$ but this follows from 
 \begin{align*}
-    \norm{\sum_{j=1}^{\infty}\ip{x, u_{j}} u_{j}} = \sum_{j=1}^{\infty} \abs{\ip{x,u_{j}} }
+    \norm{\sum_{j=1}^{n}\ip{x, u_{j}} u_{j}}^2 = \sum_{j=1}^{n} \abs{\ip{x,u_{j}}}^2
 \end{align*} and then taking $n\to \infty$, we get
 \begin{align}
-    \norm{\sum_{j=1}^{n}\ip{x, u_{j}} u_{j}} = \sum_{j=1}^{n} \abs{\ip{x,u_{j}}}  \label{eqn:Bessel-in-infinite}
+  \norm{\sum_{j=1}^{\infty}\ip{x, u_{j}} u_{j}}^2 = \sum_{j=1}^{\infty} \abs{\ip{x,u_{j}}}^2  \label{eqn:Bessel-in-infinite}
 \end{align}
-Conversely, suppose that equality in Bessel's inequality holds then from equalion \ref{eqn:Bessel-in-infinite} and the fact that $\norm{x} ^{2} = \norm{z} ^{2} \norm{x-z} ^{2}$ that $\norm{x-z} ^{2} = 0$ and hence $x\in M$.
+Conversely, suppose that equality in Bessel's inequality holds then from equalion \ref{eqn:Bessel-in-infinite} and the fact that $\norm{x} ^{2} = \norm{z} ^{2} + \norm{x-z} ^{2}$ that $\norm{x-z} ^{2} = 0$ and hence $x\in M$.
 \end{proof}
 
 \begin{corollary}\label{cor:span-closure-of-onb}
@@ -86,7 +86,7 @@ Let $H$ be a Hilbert space. Then $H$ is separable (that is it has a countable de
 \label{prop:separable-hilbert-spaces}
 \end{proposition}
 \begin{proof}
-Suppose $\mathcal B = \{u_{\alpha} : \alpha \in I\}$ be an collection of orthonormal set in $H.$ It is straightforward to verify that $\|u_{\alpha}-u_{\beta}\|= \sqrt{2}$ for every $\alpha,\beta\in I$ with $\alpha \neq \beta.$ Thus  the collection of balls $\{B(u_{\alpha},\frac{\sqrt{2}}{2}) : \alpha \in I\}$ are pairwise disjoint. If $I$ is uncountable then we have uncountable such balls  which are pairwise disjoint. This contradicts any existence of countable dense set in $H.$ Thus if $H$ is separable then any orthonormal collection in $H$ has to be at most countable (finite or countably infinite). Hence any maximal orthonormal set in $H$ must be at most countable. This proves that for a separable Hilbert space $H$ we have an at most countable orthonormal basis.
+  Suppose $\mathcal B = \{u_{\alpha} : \alpha \in I\}$ be an collection of orthonormal set in $H.$ It is straightforward to verify that $\|u_{\alpha}-u_{\beta}\|= \sqrt{2}$ for every $\alpha,\beta\in I$ with $\alpha \neq \beta.$ Thus  the collection of balls $\{B(u_{\alpha},\frac{\sqrt{2}}{2}) : \alpha \in I\}$ are pairwise disjoint. If $I$ is uncountable then we have uncountable such balls  which are pairwise disjoint. This contradicts any existence of countable dense set in $H.$ Thus if $H$ is separable then any orthonormal collection in $H$ has to be at most countable (finite or countably infinite). Hence any maximal orthonormal set in $H$ must be at most countable. This proves that for a separable Hilbert space $H$ we have an at most countable orthonormal basis.
 
 For the converse direction assume that $H$ admits a countable orthonormal basis, say $\mathcal B = \{u_{i} : i \in \mathbb N\}.$ Let $D = \cup_{n\in\mathbb N} D_n,$ where $D_n$ is given by
 \begin{align*}

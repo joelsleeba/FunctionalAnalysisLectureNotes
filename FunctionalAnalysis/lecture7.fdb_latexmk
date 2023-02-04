@@ -1,0 +1,11 @@
+# Fdb version 3
+["latex"] 1675499280 "lecture7.tex" "lecture7.dvi" "lecture7" 1675499280
+  "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1650183167 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
+  "/var/lib/texmf/web2c/pdftex/latex.fmt" 1669214321 2927659 dc074505efb1bec398f15892a6851609 ""
+  "lecture7.aux" 1675496371 1308 39fca93b4cc044a1271432386fef5108 ""
+  "lecture7.tex" 1675329635 6362 63d90833ea9cd12c11d22a2239556f7d ""
+  (generated)
+  "lecture7.dvi"
+  "lecture7.log"
